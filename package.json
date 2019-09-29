@@ -1,0 +1,38 @@
+{
+  "name": "escape",
+  "version": "0.0.0",
+  "description": "level-based game plus editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "test:watch": "jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianlafond/escape.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Adrian Lafond <mail@adrianlafond.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/adrianlafond/escape/issues"
+  },
+  "homepage": "https://github.com/adrianlafond/escape#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/pixi.js": "^4.8.9",
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}

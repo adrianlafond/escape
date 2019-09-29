@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "outDir": "./dist/",
+    "sourceMap": false,
+    "declaration": false,
+    "noImplicitAny": true,
+    "target": "es5",
+    "lib": ["es2015", "dom"],
+    "types": [
+      "jest",
+      "pixi.js"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
