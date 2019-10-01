@@ -15,7 +15,7 @@ export class CanvasTest {
     this.drawGrid();
   }
 
-  createApp() {
+  private createApp() {
     this.app = new PIXI.Application({
       width: WIDTH,
       height: 480,
@@ -25,7 +25,7 @@ export class CanvasTest {
     document.body.appendChild(this.app.view);
   }
 
-  drawGrid() {
+  private drawGrid() {
     this.gfx = new PIXI.Graphics();
     this.gfx.beginFill(0x222222);
 
