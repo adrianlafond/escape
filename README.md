@@ -16,8 +16,9 @@ Goblins who pursue the hero. If they reach him, he dies. They can run left and r
 
 ## parts
 
-All parts fit in one block of the board. Each can be pushed by the hero when in "move" mode.
+All parts fit in one block of the board.
 
+## movable parts
 - ladder
 - engine, in 4 variations which push in the following directions:
   * up
@@ -29,6 +30,10 @@ All parts fit in one block of the board. Each can be pushed by the hero when in 
 - movable block
 - booby trap
 - bar (for hanging from)
+
+## fixed parts
+- solid
+- portal/support
 - warp portal
 
 ## components
