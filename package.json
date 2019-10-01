@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "start": "webpack-dev-server --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js",
+    "start": "webpack-dev-server --config webpack/config.dev.js",
+    "build": "webpack --config webpack/config.prod.js",
     "test:watch": "jest --watchAll --coverage"
   },
   "repository": {

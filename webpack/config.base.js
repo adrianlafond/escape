@@ -4,8 +4,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.ts',
-  devtool: 'cheap-module-eval-source-map',
-  mode: 'development',
   module: {
     rules: [
       {
@@ -19,13 +17,9 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '../dist'),
     filename: 'escape.js',
     publicPath: '/',
-  },
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    open: true,
   },
   plugins: [
     new CleanWebpackPlugin(),
